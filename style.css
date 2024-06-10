@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.booking-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.desk-type, .membership-tier, .booking-details, .desks-container {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.desk-type button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.membership-tier button {
+    background-color: #ddd;
+}
+
+.desks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.desk {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.desk.booked {
+    background-color: #ddd;
+    cursor: default;
+}
+
+#booking-message {
+    margin-top: 10px;
+}
