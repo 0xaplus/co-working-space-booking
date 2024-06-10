@@ -61,3 +61,5 @@ document.getElementById('basic-tier').addEventListener('click', () => selectTier
 document.getElementById('premium-tier').addEventListener('click', () => selectTier('premium'));
 document.getElementById('executive-tier').addEventListener('click', () => selectTier('executive'));
 document.getElementById('book-now').addEventListener('click', bookDesk);
+
+module.exports = {bookDesk}
